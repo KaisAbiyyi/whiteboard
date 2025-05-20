@@ -30,7 +30,7 @@ const ChatSidebar = ({ boardId }: Props) => {
                 <button
                     onClick={() => setIsOpen(true)}
                     className="btn bg-primary-subtle rounded-4 fw-semibold position-fixed  end-0 me-3"
-                    style={{ top: "5rem", zIndex: 1060 }}
+                    style={{ top: "5rem", zIndex: 100 }}
                 >
                     Chat
                 </button>
